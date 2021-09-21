@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chatting page</title>
+        <link rel = "icon" href = "Chaticon.png" type = "image/x-icon">
+
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="tellychat_page.css">
+    </head>
+    <body>
+        <button class="btn btn-danger" id="margin"><span><img src="Chaticon.png" width="50" height="50"></span>Logout</button>
+        <center>
+            <img src="Chaticon.png">
+            
+                <img src="boy_chatting.png" id="w">
+
+            <div id="msg"></div>
+
+            <img src="girl_chatting.png" id="q">
+
+            <input id="msginput" type="text" class="form-control" placeholder="Enter Message">
+            <button class="btn btn-primary" onclick="Send()" style="margin-top: 10px;margin-bottom: 50px;" id="Enter">Send</button>
+        </center>
+        <script src="tellychat_page.js"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color:#cc9c9c;
+}
+#p{
+    margin-right:1200px;
+    margin-top: 10px;
+}
+#roomname{
+    width:1000px
+}
+.s{
+    margin-top: 10px;
+}
+#head{
+    font-family: cursive;
+    color:#237db9;
+    text-shadow: 3px 3px 3px black;
+}
+.user{
+    text-shadow: 3px 3px 3px black;
+    font-family: cursive;
+    color:#237db9;
+}
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}

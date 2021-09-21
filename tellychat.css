@@ -1,0 +1,15 @@
+#background{
+    float: left;
+    height: 100%;
+    width: 700px;
+}
+body{
+    background-color: #cc9c9c;
+}
+#user_name{
+    
+    width:500px
+}
+title{
+    background-image: url("Chaticon.png");
+}

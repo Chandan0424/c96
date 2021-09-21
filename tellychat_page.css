@@ -1,0 +1,21 @@
+#margin{
+    margin-right: 1400px;
+    margin-top: 10px;
+}
+body{
+    text-align: center;
+    background-color: #cc9c9c;
+}
+#msg
+{
+	padding: 10px; width:80%;background: #237db9;border-radius: 15px;
+}
+#q{
+    margin-left: 1390px;
+}
+#w{
+    margin-right: 1390px;
+}
+#msginput{
+    width: 1000px;
+}
